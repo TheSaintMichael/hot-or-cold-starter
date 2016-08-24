@@ -39,7 +39,7 @@
 			</div>
 
 			<!-- logo text -->
-			<h1>HOT or COLD</h1>
+			<output Id = "answer-output"> Hot or Cold? </output>
 
 		</header>
 
@@ -47,12 +47,12 @@
 			
 			<h2 id="feedback">Make your Guess!</h2>
 
-			<form>
+			<form id = "guess-form">
 				<input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter your Guess" required/>
       			<input type="submit" id="guessButton" class="button" name="submit" value="Guess"/>
 			</form>
 			
-      		<p>Guess #<span id="count">0</span>!</p>
+      		<p>Guess #<span id="count"></span>!</p>
 			
 			<ul id="guessList" class="guessBox clearfix">
 
